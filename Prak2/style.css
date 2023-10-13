@@ -1,0 +1,88 @@
+html {
+    background-color: #ffd7fb;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+}
+
+.cv {
+    background-color: #ddd;
+    margin: 10px;
+    width: 800px;
+}
+
+.identitas {
+    display: flex;
+    justify-content: start;
+    background-color: #fe81da;
+    padding: 20px;
+}
+
+.gambar {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.nama {
+    color: rgb(0, 0, 0);
+}
+
+.navigationbar {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(255, 0, 187);
+
+}
+
+.menu a {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.tentang {
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffff;
+}
+
+.video {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffff
+}
+
+.experience {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffff
+}
+
+.table {
+width: 65%;
+align-self: center;
+}
+
+.kontak {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.kontak button {
+    background-color: rgb(255, 185, 233);
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    background-color: #fe81da;
+    color: rgb(0, 0, 0);
+}

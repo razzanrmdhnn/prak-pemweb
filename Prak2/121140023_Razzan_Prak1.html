@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum - Pemrograman Web RC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cv" border="1">
+        <header class="identitas">
+        <img src="./assets/img/foto.jpeg" width="350" alt="foto" class="gambar"/>
+            <div class="nama">
+                <h1>Muhammad Razzan Ramadhan</h1>
+                <h3>Teknik Informatika - Institut Teknologi Sumatera</h3>
+            </div>
+        </header>
+
+        <nav class="navigationbar">
+            <li class="menu"><a href="#tentang">Tentang</a></li>
+            <li class="menu"><a href="#experience">Pengalaman</a></li>
+            <li class="menu"><a href="#narahubung">Kontak</a></li>
+        </nav>
+
+        <div id="tentang" class="tentang">
+        <h2>Tentang</h2>
+        <p align="justify">
+        Mahasiswa dengan program studi Teknik Informatika di Institut Teknologi Sumatera. Senang bermain game dan tertarik dalam pemecahan masalah.
+    </p>
+    </div>
+
+    <div class="video">
+    <iframe
+        src="https://www.youtube.com/embed/DPZJzeVC10U?si=u5tUtEEkIZHyXyGu"
+        title="YouTube"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+    ></iframe>
+    </div>
+
+    <div class="experience">
+    <h2 id="experience">Pengalaman Organisasi</h2>
+    <table border="1" class="table">
+        <thead>
+        <tr>
+            <th rowspan="3">Organisasi</th>
+            <th rowspan="3">Posisi</th>
+            <th rowspan="3">Tahun</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>HMIF ITERA</td>
+            <td>Staff Divisi Intrakampus</td>
+            <td>2023</td>
+        </tr>
+    </table>
+
+    <h2 id="experience">Pengalaman Kepanitiaan</h2>
+    <table border="1" class="table">
+        <thead>
+        <tr>
+            <th rowspan="3">Kepanitiaan</th>
+            <th rowspan="3">Posisi</th>
+            <th rowspan="3">Tahun</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>PPLK ITERA</td>
+            <td>Staff Mentor Divisi Materi Metode</td>
+            <td>2022</td>
+        </tr>
+    </table>
+    </div>
+
+    <form action="#" class="kontak" id="narahubung">
+        <h2 id="narahubung">Narahubung</h2>
+        <label for="email">Email</label>
+        <input type="email" name="email-input" placeholder="Masukkan Email" />
+
+        <p>Kategori</p>
+        <input type="checkbox" id="kritik" name="kritik" value="Boat">
+        <label for="kritik">Kritik</label><br>
+        <input type="checkbox" id="saran" name="saran" value="Plane">
+        <label for="saran">Saran</label><br>
+        <input type="text" name="text-input" placeholder="Masukkan Pesan"
+        />
+        <button type="button">Kirim</button>
+    </form>
+
+    <footer class="foot">
+    <p>Tugas 1 Praktikum Pemrograman Web RC</p>
+    </footer>
+    </div>
+</body>
+
+</html>
