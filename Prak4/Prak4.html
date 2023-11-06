@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 4 Pemrograman Web</title>
+    
+    <script>
+        function hitungGanjilGenap() {
+            var inputAngka = document.getElementById("number").value;
+            var totalGanjil = 0;
+            var totalGenap = 0;
+
+            if (inputAngka < 0) {
+                alert("Masukkan bilangan bulat positif yang lebih besar atau sama dengan 0.");
+            } else {
+                for (var i = 1; i <= inputAngka; i++) {
+                    if (i%2 === 0) {
+                        totalGenap++;
+                    } else {
+                        totalGanjil++;
+                    }
+                }
+                var result = "Jumlah bilangan ganjil: " + totalGanjil + "<br>" + "<br>" +
+                            "Jumlah bilangan genap: " + totalGenap;
+                document.getElementById("result").innerHTML = result;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Menghitung Bilangan Ganjil dan Genap</h1>
+    <p>Masukkan bilangan bulat positif</p>
+    <input type="number" id="number" min="1">
+    <button onclick="hitungGanjilGenap()">Hitung</button>
+    <p>Hasil:</p>
+    <span id="result"></span>
+</body>
+</html>
